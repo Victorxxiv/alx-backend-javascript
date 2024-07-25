@@ -1,5 +1,6 @@
 function calculateNumber(type, a, b) {
-    if (typeof (type) == String || type == 'SUM' || type == 'SUBTRACT' || type == 'DIVIDE') {
+    if (typeof (type) ==
+	    String || type == 'SUM' || type == 'SUBTRACT' || type == 'DIVIDE') {
         if (type == 'SUM') {
             return Math.round(a) + Math.round(b);
         } else if (type == 'SUBTRACT') {
