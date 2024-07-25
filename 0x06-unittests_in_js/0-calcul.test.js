@@ -18,4 +18,4 @@ describe('calculateNumber', () => {
     it('chacking negative return', () => {
         assert.equal(calculateNumber(-1.3, -3.7), -5);
     });
-})
+});
